@@ -1,0 +1,32 @@
+{
+  "name": "clean-node-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  },
+  "devDependencies": {
+    "husky": "^6.0.0",
+    "jest": "^27.0.4",
+    "lint-staged": "^11.0.0",
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0",
+    "standard": "^16.0.3"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "test": "jest --watchAll",
+    "test:staged": "jest"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.2",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.4"
+  }
+}
